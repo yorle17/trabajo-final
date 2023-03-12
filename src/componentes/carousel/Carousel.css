@@ -1,0 +1,27 @@
+.carousel {
+  width: 100%;
+  
+  margin-left: 50px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
