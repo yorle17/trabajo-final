@@ -19,6 +19,22 @@ body {
   align-items: flex-start;
   padding: 20px;
 }
+.contenedor2 {
+  display: flex;
+  color: aliceblue;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+.contenedor3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  height: 500px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -1,0 +1,20 @@
+.steam-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(42, 11, 129);
+  }
+  
+  .steam-list {
+    list-style: none;
+    color: aqua;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .steam-list li {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    height: 500px;
+  }
+  
