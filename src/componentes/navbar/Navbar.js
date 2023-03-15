@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './Navbar.css';
 
+
 const Navbar = () => {
   const [theme, setTheme] = useState('claro');
   const themeToggle = useRef(null);
@@ -31,3 +32,5 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
